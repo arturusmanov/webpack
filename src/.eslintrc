@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint", // что бы линтер знал что мы используем бэйбл и не возникало ошибок
+  "rules": {
+    "no-unused-vars": "warn"
+  },
+  "env": {
+    "es6": true, // для Promise
+    "browser": true // для Console
+  },
+  "extends": [
+    "eslint:recommended"
+  ]
+}
